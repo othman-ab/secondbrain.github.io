@@ -60,9 +60,9 @@ featureupgradejqueryversionloginmodule
 
 ### Avoid checkList : 
 
-- [ ]Avoid using numbers only .
-- [ ]Avoid using all naming convention simultaneously . 
-- [ ]Avoid long descriptive names for long-lived branches .
+- [ ] Avoid using numbers only .
+- [ ] Avoid using all naming convention simultaneously . 
+- [x] Avoid long descriptive names for long-lived branches .
 
 
 
