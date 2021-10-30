@@ -62,7 +62,30 @@ featureupgradejqueryversionloginmodule
 
 - [x] Avoid using numbers only .
 - [x] Avoid using all naming convention simultaneously . 
-- [x] Avoid long descriptive names for long-lived branches .
+- [x] Avoid long descriptive names for long-lived branches . 
+
+
+## Git Branch Naming and commit : 
+
+### Branches name : 
+
+```md
+
+<GroupWord>_<id>_<descriptiveNames>
+
+```
+
+### Commit of the branches hotfix & release : 
+
+//Writting desrc ... 
+
+```md 
+
+release-v.x.x.x 
+
+hotfix-v.x.x.x 
+
+```
 
 
 
