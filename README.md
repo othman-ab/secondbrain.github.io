@@ -24,9 +24,58 @@ wip-ioc-container-added – the branch relates to the task to add an IoC contain
 
 ### Use Unique ID in branch names : 
 
-You can use the issue tracker Id (jira or trello card id) in your branch name. I prefer this method when I work on fixing some bugs. For instance:
+You can use the issue tracker Id (jira or trello card id or issues id) in your branch name. I prefer this method when I work on fixing some bugs. For instance:
 
 ```md
 wip-8712-add-testing-module
 
 ```
+
+The name shows that the branch applies to the task of adding a testing module, the tracking Id of the issue is 8712, and the work is in progress.
+
+One more advantage of using an external tracking ID in the branch name is the possibility to track the progress from an external system. 
+
+### Use Hyphen as Separators : 
+
+There are two main advantages of using a separator in the branch name:
+
+- It increases the readability and helps to avoid confusion.
+- It makes it easier to manage, especially if you are dealing with many branches. 
+
+**DO** 
+
+```md
+
+feature_upgrade_jquery_version_login_module
+
+```
+
+**DON'T** 
+
+```md
+
+featureupgradejqueryversionloginmodule
+
+```
+
+Avoid checkList : 
+
+- [ ] Avoid using numbers only .
+- [ ] Avoid using all naming convention simultaneously . 
+- [ ] Avoid long descriptive names for long-lived branches .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
